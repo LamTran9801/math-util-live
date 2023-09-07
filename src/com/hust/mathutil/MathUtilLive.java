@@ -17,6 +17,9 @@ public class MathUtilLive {
         // TODO code application logic here
         long result = MathUtil.getFactorial(6);
         System.out.println("5! = " + result);
+        
+        //thêm code sau lần đầu tiên up code lên server 7/9/2023
+        System.out.println("expected: 1! = 1; actual: " + MathUtil.getFactorial(1));
     }
     
 }
